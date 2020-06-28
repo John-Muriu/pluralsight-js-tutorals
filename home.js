@@ -46,6 +46,12 @@ let person = {
     age: 45
 };
 // showMessage(person.age);;
-showMessage(person.fname);
+// showMessage(person.fname);
 
 //symbols
+
+// condition if statement if 
+let price = 20;
+if (price !== 40) {
+    showMessage('discounted');
+}
