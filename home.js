@@ -1,3 +1,3 @@
-let welcome = "hello";
+let welcome = "welcome";
 
-showMessage('change..');
+showMessage('Welcome');
