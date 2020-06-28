@@ -69,7 +69,14 @@ if (+(1.1 + 1.3).toFixed(2) === 2.4) {
 
 //if else stetemnet
 if (true) {
-    showMessage('true');
+    // showMessage('true');
 } else {
-    showMessage('false')
+    // showMessage('false');
+}
+
+let pric = 5;
+if (pric >= 5) {
+    showMessage(true);
+} else {
+    showMessage(false);
 }
