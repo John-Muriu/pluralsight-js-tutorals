@@ -30,5 +30,6 @@
 
 //convering strings
 let amount = 123;
+let age = Number.parseFloat('56as');
 amount = amount.toString();
-showMessage(typeof amount);
+showMessage(age);
