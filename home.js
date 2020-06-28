@@ -45,4 +45,7 @@ let person = {
     lname: 'Doe',
     age: 45
 };
-showMessage(person.age);
+// showMessage(person.age);;
+showMessage(person.fname);
+
+//symbols
