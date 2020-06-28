@@ -1,5 +1,5 @@
-let productName = "hiking boots",
-    name = price,
-    discounted = true;
+// let productName = "hiking boots",
+//     name = price,
+//     discounted = true;
 
-showMessage('Welcome');
+// showMessage('Welcome');
