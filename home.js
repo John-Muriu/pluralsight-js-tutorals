@@ -10,5 +10,5 @@ let price = 67;
 // price = price + 2;
 // price = price * 3;
 price += 5; //increment
-
+price -= 4; // decremeent oper
 showMessage(price);
