@@ -6,7 +6,7 @@
 
 //types and operators{ symbols that add functionalitions to our code}
 // numbers and operators
-let price = 67;
+// let price = 67;
 // price = price + 2;
 // price = price * 3;
 // price += 5; //increment
@@ -18,4 +18,13 @@ let price = 67;
 //numbers and precion
 // price = 1.1 + 1.3; // 2.400000004
 
-showMessage(price);
+//string and text
+
+let fname = 'Julia';
+let lname = 'John';
+let age = 34;
+let adress = 'Nairobi';
+//concatenation
+let message = `hey I'm ${fname} ${lname} im ${age} yrs old. i come from ${adress}`;
+
+showMessage(message);
