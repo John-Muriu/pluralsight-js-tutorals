@@ -18,14 +18,17 @@
 //numbers and precion
 // price = 1.1 + 1.3; // 2.400000004
 
-//string and text
+// //string and text
 
-let fname = 'Julia';
-let lname = 'John';
-let age = 34;
-let adress = 'Nairobi';
-// let message = fname.length;
-//concatenation
-let message = `hey I'm ${fname} ${lname} im ${age} yrs old. I come from ${adress}`;
+// let fname = 'Julia';
+// let lname = 'John';
+// let age = 34;
+// let adress = 'Nairobi';
+// // let message = fname.length;
+// //concatenation
+// let message = `hey I'm ${fname} ${lname} im ${age} yrs old. I come from ${adress}`;
 
-showMessage(message);
+//convering strings
+let amount = 123;
+amount = amount.toString();
+showMessage(typeof amount);
