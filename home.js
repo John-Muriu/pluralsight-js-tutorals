@@ -24,6 +24,7 @@ let fname = 'Julia';
 let lname = 'John';
 let age = 34;
 let adress = 'Nairobi';
+// let message = fname.length;
 //concatenation
 let message = `hey I'm ${fname} ${lname} im ${age} yrs old. I come from ${adress}`;
 
