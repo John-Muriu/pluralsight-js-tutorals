@@ -28,8 +28,12 @@
 // //concatenation
 // let message = `hey I'm ${fname} ${lname} im ${age} yrs old. I come from ${adress}`;
 
-//convering strings
-let amount = 123;
-let age = Number.parseFloat('56as');
-amount = amount.toString();
-showMessage(age);
+// //convering strings
+// let amount = 123;
+// let age = Number.parseFloat('56as');
+// amount = amount.toString();
+// showMessage(age);
+
+let saved = true;
+saved = !saved
+showMessage(saved);
