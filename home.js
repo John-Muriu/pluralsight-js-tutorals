@@ -53,5 +53,16 @@ let person = {
 // condition if statement if 
 let price = 20;
 if (price !== 40) {
-    showMessage('discounted');
+    // showMessage('discounted');
+}
+
+// //truth/ falsy;
+// if (1.1 + 1.3 !== 2.4) {
+//     // showMessage('true');
+// }
+
+
+// // we can fix this  by rounding of our values
+if (+(1.1 + 2.3).toFixed(2) !== 2.4) {
+    showMessage("True");
 }
