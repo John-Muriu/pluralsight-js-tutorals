@@ -34,6 +34,15 @@
 // amount = amount.toString();
 // showMessage(age);
 
-let saved = true;
-// saved = !saved;
-showMessage(saved);
+// let saved = true;
+// // saved = !saved;
+// showMessage(saved);
+
+
+//objects and symbols
+let person = {
+    fname: 'john',
+    lname: 'Doe',
+    age: 45
+};
+showMessage(person.age);
