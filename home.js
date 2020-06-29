@@ -76,9 +76,9 @@ if (true) {
 
 let pric = 5;
 if (pric >= 5) {
-    showMessage(true);
+    // showMessage(true);
 } else {
-    showMessage(false);
+    // showMessage(false);
 }
 
 //ternary operator
@@ -91,5 +91,13 @@ if (price > 30) {
 }
 
 // es6
-let pri = 0;
-pri < 20 ? showMessage('yes') : showMessage('no');
+// let pri = 0;
+// pri < 20 ? showMessage('yes') : showMessage('no');
+
+//block scope using let
+
+//looping with for ()
+
+for (let i = 0; i <= 5; i++) {
+    showMessage(i)
+}
