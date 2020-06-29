@@ -129,3 +129,5 @@ let fn = function logMessage() {
     console.log("Ilove you brother");
 }
 fn();
+
+//passing  information to a function()
