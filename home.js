@@ -131,3 +131,4 @@ let fn = function logMessage() {
 fn();
 
 //passing  information to a function()
+//we can pass multiple infomation to our function through, separate it using a comma (,)
