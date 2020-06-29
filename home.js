@@ -118,4 +118,4 @@ do {
 
 
 //functions
-// function basics
+// function basics( block code code that solves a task)
