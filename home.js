@@ -105,13 +105,13 @@ for (let i = 0; i <= 5; i++) {
 //while() loop
 let j = 4;
 while (j > 0) {
-    console.log(j);
+    // console.log(j);
     j--;
 }
 
 // do whle loop
-let k = 4;
+let k = -4;
 do {
-    console.log(i);
+    console.log(k);
     k--;
 } while (k > 0);
