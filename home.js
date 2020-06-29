@@ -145,4 +145,15 @@ let fun = function myFunction(value) {
 
 };
 let secreCode = fun(477);
-showMessage(secreCode);
+// showMessage(secreCode);
+
+
+// function scope 
+let key = 24;
+
+function getSecretCode() {
+    let key = 12;
+    console.log('in keyGeneator:', key);
+    return key;
+}
+let code = value * keyGe
