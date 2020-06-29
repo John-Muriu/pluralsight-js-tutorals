@@ -127,8 +127,12 @@ logMessage();
 // function expresion
 let fn = function logMessage() {
     console.log("Ilove you brother");
-}
+};
 fn();
 
 //passing  information to a function()
 //we can pass multiple infomation to our function through, separate it using a comma (,)
+let lfn = function myFunc(message, anotherMessage) {
+    console.log(message, anotherMessage);
+}
+lfn('First message, second mesage');
