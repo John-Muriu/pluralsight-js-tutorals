@@ -133,7 +133,15 @@ fn();
 //passing  information to a function()
 //we can pass multiple infomation to our function through, separate it using a comma (,)
 let lfn = function (message, fname) {
-    console.log(message);
-    console.log(fname);
+    // console.log(message);
+    // console.log(fname);
 }
 lfn('hello', 'john');
+
+// getting infomation from the function
+let fun = function myFunction(value) {
+    let code = (value * 3);
+    return code; // if a function does not have a return statement it implicityly returns undefined
+
+};
+showMessage(fun(4));
