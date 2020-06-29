@@ -119,3 +119,13 @@ do {
 
 //functions
 // function basics( block code code that solves a task)
+function logMessage(True) {
+    // console.log("Ilove you brother");
+}
+logMessage();
+
+// function expresion
+let fn = function logMessage() {
+    console.log("Ilove you brother");
+}
+fn();
