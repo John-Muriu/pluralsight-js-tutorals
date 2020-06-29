@@ -99,5 +99,12 @@ if (price > 30) {
 //looping with for ()
 
 for (let i = 0; i <= 5; i++) {
-    showMessage(i);
+    // showMessage(i);
+}
+
+//while() loop
+let j = 4;
+while (j > 0) {
+    console.log(j);
+    j--;
 }
