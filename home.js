@@ -112,6 +112,9 @@ while (j > 0) {
 // do whle loop
 let k = -4;
 do {
-    console.log(k);
+    // console.log(k);
     k--;
 } while (k > 0);
+
+
+//functions
