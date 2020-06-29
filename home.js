@@ -99,5 +99,5 @@ if (price > 30) {
 //looping with for ()
 
 for (let i = 0; i <= 5; i++) {
-    showMessage(i)
+    showMessage(i);
 }
