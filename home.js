@@ -144,4 +144,5 @@ let fun = function myFunction(value) {
     return code; // if a function does not have a return statement it implicityly returns undefined
 
 };
-showMessage(fun(4));
+let secreCode = fun(477);
+showMessage(secreCode);
