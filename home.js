@@ -108,3 +108,10 @@ while (j > 0) {
     console.log(j);
     j--;
 }
+
+// do whle loop
+let k = 4;
+do {
+    console.log(i);
+    k--;
+} while (k > 0);
