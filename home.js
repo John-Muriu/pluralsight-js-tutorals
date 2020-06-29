@@ -80,3 +80,16 @@ if (pric >= 5) {
 } else {
     showMessage(false);
 }
+
+//ternary operator
+let pricee = 20;
+
+if (price > 30) {
+    // showMessage("Yes");
+} else {
+    // showMessage('no');
+}
+
+// es6
+let pri = 0;
+pri < 20 ? showMessage('yes') : showMessage('no');
