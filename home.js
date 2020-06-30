@@ -153,7 +153,7 @@ let key = 24;
 
 function getSecretCode(value) {
     let keyGenerator = function () {
-        let key = 62;
+        let key = 6;
         console.log('in keyGeneator:', key);
         return key;
     };
@@ -161,5 +161,7 @@ function getSecretCode(value) {
     console.log('in getSecretCode:', key);
     return code;
 }
-let SecretCode = getSecretCode(2);
+let SecretCode = getSecretCode(5);
 showMessage(SecretCode);
+
+//using block scope function to modify our web pages
