@@ -154,14 +154,14 @@ let key = 24;
 function getSecretCode(value) {
     let keyGenerator = function () {
         let key = 6;
-        console.log('in keyGeneator:', key);
+        // console.log('in keyGeneator:', key);
         return key;
     };
     let code = value * keyGenerator();
-    console.log('in getSecretCode:', key);
+    // console.log('in getSecretCode:', key);
     return code;
 }
-let SecretCode = getSecretCode(5);
-showMessage(SecretCode);
+// let SecretCode = getSecretCode(5);
+// showMessage(SecretCode);
 
-//using block scope function to modify our web pages
+//using block scope function to modify our web pagesmodify our web pages
