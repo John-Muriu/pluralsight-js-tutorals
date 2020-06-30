@@ -152,8 +152,11 @@ let secreCode = fun(477);
 let key = 24;
 
 function getSecretCode() {
-    let key = 12;
-    console.log('in keyGeneator:', key);
-    return key;
+    //     let keyGenerator= function (){
+
+    //     let key = 12;
+    //     console.log('in keyGeneator:', key);
+    //     return key;
+    // }
+    let code = value * keyGenerator();
 }
-let code = value * keyGe
