@@ -151,12 +151,15 @@ let secreCode = fun(477);
 // function scope 
 let key = 24;
 
-function getSecretCode() {
-    //     let keyGenerator= function (){
-
-    //     let key = 12;
-    //     console.log('in keyGeneator:', key);
-    //     return key;
-    // }
+function getSecretCode(value) {
+    let keyGenerator = function () {
+        let key = 62;
+        console.log('in keyGeneator:', key);
+        return key;
+    };
     let code = value * keyGenerator();
+    console.log('in getSecretCode:', key);
+    return code;
 }
+let SecretCode = getSecretCode(2);
+showMessage(SecretCode);
