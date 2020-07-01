@@ -164,4 +164,6 @@ function getSecretCode(value) {
 // let SecretCode = getSecretCode(5);
 // showMessage(SecretCode);
 
-//using block scope function to modify our web pagesmodify our web pages
+//using block scope function to modify our web pagesmodify our web pages  change
+
+changePercentOff(32);

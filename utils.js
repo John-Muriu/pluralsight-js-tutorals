@@ -1,7 +1,7 @@
-function showMessage(message) {
-    document.getElementById('message').textContent = message;
-};
+// function showMessage(message) {
+//     document.getElementById('message').textContent = message;
+// };
 
-function changePercentOff(percentOff) {
-    document.getElementById('percentOff').textContent = percentOff + "% OFF";
+function changePercentOff(percentage) {
+    document.getElementById('percentOff').textContent = percentage + "% OFF";
 };
