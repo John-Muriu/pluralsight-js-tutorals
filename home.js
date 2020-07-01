@@ -203,5 +203,12 @@ changePercentOff(56);
 // changePercentOff(Math.random())
 
 
-let s = 'hello';
-showMessage(s.charAt(0));
+// let s = 'hello';
+// showMessage(s.charAt(0));  
+
+// dom manupulation
+
+const header = document.getElementById('message');
+header.style.color = 'red';
+header.style.fontWeight = 600;
+header.style.fontSize = 45;
