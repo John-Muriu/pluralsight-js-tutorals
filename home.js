@@ -166,4 +166,8 @@ function getSecretCode(value) {
 
 //using block scope function to modify our web pagesmodify our web pages  change
 
+
+//modifying web pages using functions
 changePercentOff(56);
+
+// objects and DOM
