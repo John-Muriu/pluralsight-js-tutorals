@@ -211,4 +211,4 @@ changePercentOff(56);
 const header = document.getElementById('message');
 header.style.color = 'red';
 header.style.fontWeight = 600;
-header.style.fontSize = 45;
+header.style.fontSize = '45px';
