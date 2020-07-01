@@ -174,10 +174,21 @@ changePercentOff(56);
 // object properties
 let mySymbol = Symbol();
 let persn = {
-    fname: 'john',
+    fname: 'ohn',
     lname: 'Doe',
     age: 4,
-    [mySymbol]: 'secretInfo'
+    [mySymbol]: 'secretInfo',
+    showInfo: function () {
+        showMessage(this.fname + this.lname);
+    },
+    showNumber: function () {
+        changePercentOff();
+    }
 };
 persn.age = 49;
 // showMessage(persn.age);
+persn.showInfo();
+changePercentOff(43);
+
+
+// objects methods
