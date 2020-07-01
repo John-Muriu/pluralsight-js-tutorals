@@ -194,6 +194,14 @@ changePercentOff(56);
 // objects methods
 
 // current date
-let now = new Date();
+// let now = new Date();
 // showMessage(now.toDateString());
-showMessage(now.toDateString(-42));
+// showMessage(math.abs(42));
+// changePercentOff(math.random(43));
+
+// showMessage(Math.abs(-56))
+// changePercentOff(Math.random())
+
+
+let s = 'hello';
+showMessage(s.charAt(0));
