@@ -206,14 +206,23 @@ changePercentOff(56);
 // let s = 'hello';
 // showMessage(s.charAt(0));  
 
-// dom manupulation
+// // dom manupulation
 
-const header = document.getElementById('message');
-header.style.color = 'red';
-header.style.fontWeight = 600;
-header.style.fontSize = '45px';
+// const header = document.getElementById('message');
+// header.style.color = 'red';
+// header.style.fontWeight = 600;
+// header.style.fontSize = '45px';
 
 const button = document.getElementById('see-review');
 button.addEventListener('click', function () {
-    console.log('click');
+    const review = document.getElementById('review');
+    if (review.classList.contains('d-none')) {
+        review.classList.remove('d-none');
+        button.textContent = 'CLose Review';
+    } else {
+        review.classList.add('d-none');
+        button.textContent = 'See review'
+    }
 });
+
+// show and hiding dom element 
