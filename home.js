@@ -172,23 +172,28 @@ changePercentOff(56);
 
 // objects and DOM
 // object properties
-let mySymbol = Symbol();
-let persn = {
-    fname: 'ohn',
-    lname: 'Doe',
-    age: 4,
-    [mySymbol]: 'secretInfo',
-    showInfo: function () {
-        showMessage(this.fname + this.lname);
-    },
-    showNumber: function () {
-        changePercentOff();
-    }
-};
-persn.age = 49;
-// showMessage(persn.age);
-persn.showInfo();
-changePercentOff(43);
+// let mySymbol = Symbol();
+// let persn = {
+//     fname: 'John',
+//     lname: 'Doe',
+//     age: 4,
+//     [mySymbol]: 'secretInfo',
+//     showInfo: function () {
+//         showMessage(this.fname + this.lname);
+//     },
+//     showNumber: function () {
+//         changePercentOff();
+//     }
+// };
+// persn.age = 49;
+// // showMessage(persn.age);
+// persn.showInfo();
+// changePercentOff(43);
 
 
 // objects methods
+
+// current date
+let now = new Date();
+// showMessage(now.toDateString());
+showMessage(now.toDateString(-42));
