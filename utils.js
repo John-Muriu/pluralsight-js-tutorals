@@ -4,4 +4,4 @@
 
 function changePercentOff(percentage) {
     document.getElementById('percentOff').textContent = percentage + "% OFF";
-};
+}
