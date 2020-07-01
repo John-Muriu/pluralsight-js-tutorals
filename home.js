@@ -39,13 +39,13 @@
 // showMessage(saved);
 
 
-//objects and symbols
-let person = {
-    fname: 'john',
-    lname: 'Doe',
-    age: 45
-};
-// showMessage(person.age);;
+// //objects and symbols
+// let person = {
+//     fname: 'john',
+//     lname: 'Doe',
+//     // age: 45
+// };
+// // showMessage(person.age);;
 // showMessage(person.fname);
 
 //symbols
@@ -171,3 +171,13 @@ function getSecretCode(value) {
 changePercentOff(56);
 
 // objects and DOM
+// object properties
+let mySymbol = Symbol();
+let persn = {
+    fname: 'john',
+    lname: 'Doe',
+    age: 4,
+    [mySymbol]: 'secretInfo'
+};
+persn.age = 49;
+// showMessage(persn.age);
