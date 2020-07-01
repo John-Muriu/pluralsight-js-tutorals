@@ -212,3 +212,8 @@ const header = document.getElementById('message');
 header.style.color = 'red';
 header.style.fontWeight = 600;
 header.style.fontSize = '45px';
+
+const button = document.getElementById('see-review');
+button.addEventListener('click', function () {
+    console.log('click');
+});
