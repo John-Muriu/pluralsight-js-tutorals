@@ -247,4 +247,20 @@ console.log(val.indexOf('f')); //04
 console.log(val.indexOf('e')); //-1 when we try to accessan number that is out of range we will get -1
 
 // filter() 
+
+const valFilter = ['a', 'bbb', 'cccc', 'dd']
+
+const set = valFilter.filter(function (item) {
+    // console.log('item', item);
+    return item >= 'b';
+});
+// console.log(set);
+//find()
+const found = ['a', 'bbb', 'cccc', 'dd']
+
+const fset = found.filter(function (item) {
+    console.log('item', item);
+    return item.length > 'bb';
+});
+console.log(fset);
 // forEach every item is called once
