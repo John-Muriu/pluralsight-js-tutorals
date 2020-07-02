@@ -231,7 +231,7 @@ button.addEventListener('click', function () {
 // ?>?? array~
 //splice and slicing
 
-const values = ['a', 'b', 'c', 'd']
-const newValue = values.slice(2, 3);
-
+const values = ['a', 'b', 'c', 'd', 'f'];
+// const newValue = values.slice(2, 3);
+const valueNew = values.splice(3, 0, 'hello'); //wwe can also add value to an array 
 console.log(values);
