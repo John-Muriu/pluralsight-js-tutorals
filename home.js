@@ -267,4 +267,5 @@ const fset = found.find(function (item) {
 //modyfing a wepage using  an array
 
 const containers = document.getElementsByClassName('container');
+
 console.log(containers);
