@@ -226,3 +226,12 @@ button.addEventListener('click', function () {
 });
 
 // show and hiding dom element 
+
+
+// ?>?? array~
+//splice and slicing
+
+const values = ['a', 'b', 'c', 'd']
+const newValue = values.slice(2, 3);
+
+console.log(values);
