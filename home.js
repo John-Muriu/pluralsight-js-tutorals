@@ -262,5 +262,9 @@ const fset = found.find(function (item) {
     // console.log('item', item);
     return item.length > 3;
 });
-console.log(fset);
+// console.log(fset);
 // forEach every item is called once
+//modyfing a wepage using  an array
+
+const containers = document.getElementsByClassName('container');
+console.log(containers);
