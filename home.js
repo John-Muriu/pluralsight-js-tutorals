@@ -239,28 +239,28 @@ const valueNew = values.splice(3, 0, 'hello'); //wwe can also add value to an ar
 //serching through an array;
 // indexOf
 const val = ['a', 'b', 'c', 'd', 'f'];
-console.log(val.indexOf('a')); //0
-console.log(val.indexOf('b')); //1
-console.log(val.indexOf('c')); //2
-console.log(val.indexOf('d')); //03
-console.log(val.indexOf('f')); //04
-console.log(val.indexOf('e')); //-1 when we try to accessan number that is out of range we will get -1
+// // console.log(val.indexOf('a')); //0
+// console.log(val.indexOf('b')); //1
+// console.log(val.indexOf('c')); //2
+// console.log(val.indexOf('d')); //03
+// console.log(val.indexOf('f')); //04
+// console.log(val.indexOf('e')); //-1 when we try to accessan number that is out of range we will get -1
 
-// filter() 
+// // filter() 
 
-const valFilter = ['a', 'bbb', 'cccc', 'dd']
+// const valFilter = ['a', 'bbb', 'cccc', 'dd']
 
-const set = valFilter.filter(function (item) {
-    // console.log('item', item);
-    return item >= 'b';
-});
+// const set = valFilter.filter(function (item) {
+//     // console.log('item', item);
+//     return item >= 'b';
+// });
 // console.log(set);
 //find()
 const found = ['a', 'bbb', 'cccc', 'dd']
 
-const fset = found.filter(function (item) {
-    console.log('item', item);
-    return item.length > 'bb';
+const fset = found.find(function (item) {
+    // console.log('item', item);
+    return item.length > 3;
 });
 console.log(fset);
 // forEach every item is called once
