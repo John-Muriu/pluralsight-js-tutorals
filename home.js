@@ -268,4 +268,6 @@ const fset = found.find(function (item) {
 
 const containers = document.getElementsByClassName('container');
 
-console.log(containers);
+// console.log(containers);
+// global variable 
+// block scope
